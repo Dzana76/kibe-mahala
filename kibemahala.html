@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kibe Mahala Sarajevo</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f8f4ef;
+color:#333;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content{
+max-width:800px;
+}
+
+.hero h1{
+font-size:70px;
+letter-spacing:3px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.7;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#c49b63;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#a67c45;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#6b4f2a;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.about-text h3{
+font-size:32px;
+margin-bottom:20px;
+color:#6b4f2a;
+}
+
+.about-text p{
+line-height:1.8;
+font-size:18px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#6b4f2a;
+}
+
+.card p{
+line-height:1.7;
+}
+
+.specialties{
+background:white;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.menu-item{
+background:#faf7f2;
+padding:25px;
+border-radius:15px;
+border-left:5px solid #c49b63;
+}
+
+.menu-item h3{
+margin-bottom:10px;
+color:#6b4f2a;
+}
+
+.experience{
+background:#6b4f2a;
+color:white;
+text-align:center;
+}
+
+.experience p{
+max-width:900px;
+margin:auto;
+font-size:20px;
+line-height:1.8;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+font-size:18px;
+margin:10px 0;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:45px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+.section-title{
+font-size:32px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="hero-content">
+<h1>KIBE MAHALA</h1>
+<p>Jedan od najpoznatijih restorana u Sarajevu sa panoramskim pogledom na grad, vrhunskom bosanskom kuhinjom i nezaboravnim gastronomskim iskustvom.</p>
+<a href="#" class="btn">Rezerviši Sto</a>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">Dobrodošli u Kibe Mahalu</h2>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80">
+
+<div class="about-text">
+<h3>Sarajevska tradicija na najvišem nivou</h3>
+
+<p>
+Smješten na uzvišenju iznad Sarajeva, Kibe Mahala pruža jedinstven pogled na grad i planine koje ga okružuju. Restoran je poznat po autentičnim bosanskim specijalitetima, vrhunskoj usluzi i elegantnom ambijentu koji godinama privlači goste iz cijelog svijeta.
+</p>
+
+</div>
+
+</div>
+
+<div class="features">
+
+<div class="card">
+<h3>Panoramski Pogled</h3>
+<p>Uživajte u jednoj od najljepših terasa i pogleda na Sarajevo.</p>
+</div>
+
+<div class="card">
+<h3>Tradicionalna Kuhinja</h3>
+<p>Autentični bosanski recepti pripremljeni od pažljivo biranih sastojaka.</p>
+</div>
+
+<div class="card">
+<h3>Vrhunska Vina</h3>
+<p>Bogata vinska karta sa etiketama iz Bosne i Hercegovine i regiona.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section specialties">
+
+<h2 class="section-title">Specijaliteti Kuće</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<h3>Janjetina sa Ražnja</h3>
+<p>Najpoznatiji specijalitet restorana pripreman po tradicionalnoj recepturi.</p>
+</div>
+
+<div class="menu-item">
+<h3>Bosanska Plata</h3>
+<p>Izbor domaćih mesnih delicija i tradicionalnih priloga.</p>
+</div>
+
+<div class="menu-item">
+<h3>Domaće Pite</h3>
+<p>Pripremljene prema receptima koji se prenose generacijama.</p>
+</div>
+
+<div class="menu-item">
+<h3>Deserti</h3>
+<p>Tradicionalne bosanske slastice i domaće poslastice.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section experience">
+
+<h2 class="section-title" style="color:white;">Iskustvo Koje Se Pamti</h2>
+
+<p>
+Spoj vrhunske gastronomije, tradicionalne bosanske gostoljubivosti i spektakularnog pogleda čini Kibe Mahalu jednim od najprepoznatljivijih restorana u Bosni i Hercegovini.
+</p>
+
+</section>
+
+<section class="section contact">
+
+<h2 class="section-title">Kontakt</h2>
+
+<p>📍 Vrbanjuša, Sarajevo</p>
+<p>📞 +387 61 040 000</p>
+<p>✉️ info@kibemahala.ba</p>
+
+</section>
+
+<footer>
+© 2026 Kibe Mahala Sarajevo | Demo Web Stranica
+</footer>
+
+</body>
+</html>
